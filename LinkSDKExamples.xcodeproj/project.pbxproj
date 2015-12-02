@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DFACEC211C0ED81600EEFEE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC201C0ED81600EEFEE1 /* main.m */; };
 		DFACEC2C1C0ED81600EEFEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC2B1C0ED81600EEFEE1 /* Assets.xcassets */; };
-		DFACEC351C0ED94B00EEFEE1 /* MisfitLinkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFACEC341C0ED94B00EEFEE1 /* MisfitLinkSDK.framework */; };
 		DFACEC371C0ED95200EEFEE1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFACEC361C0ED95200EEFEE1 /* CoreBluetooth.framework */; };
 		DFACEC5A1C0EDD1A00EEFEE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC511C0EDD1A00EEFEE1 /* AppDelegate.m */; };
 		DFACEC5B1C0EDD1A00EEFEE1 /* GradientBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC531C0EDD1A00EEFEE1 /* GradientBackground.m */; };
@@ -26,7 +25,6 @@
 		DFACEC201C0ED81600EEFEE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFACEC2B1C0ED81600EEFEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFACEC301C0ED81600EEFEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFACEC341C0ED94B00EEFEE1 /* MisfitLinkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MisfitLinkSDK.framework; sourceTree = "<group>"; };
 		DFACEC361C0ED95200EEFEE1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		DFACEC501C0EDD1A00EEFEE1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFACEC511C0EDD1A00EEFEE1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,7 +47,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFACEC371C0ED95200EEFEE1 /* CoreBluetooth.framework in Frameworks */,
-				DFACEC351C0ED94B00EEFEE1 /* MisfitLinkSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				DFACEC361C0ED95200EEFEE1 /* CoreBluetooth.framework */,
-				DFACEC341C0ED94B00EEFEE1 /* MisfitLinkSDK.framework */,
 				DFACEC1E1C0ED81600EEFEE1 /* LapTimer */,
 				DFACEC001C0ED80300EEFEE1 /* Products */,
 				DFACEC3A1C0ED97B00EEFEE1 /* Common */,
