@@ -12,13 +12,13 @@
 		DFACEC351C0ED94B00EEFEE1 /* MisfitLinkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFACEC341C0ED94B00EEFEE1 /* MisfitLinkSDK.framework */; };
 		DFACEC371C0ED95200EEFEE1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFACEC361C0ED95200EEFEE1 /* CoreBluetooth.framework */; };
 		DFACEC391C0ED97600EEFEE1 /* helpIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC381C0ED97600EEFEE1 /* helpIcon.png */; };
-		DFACEC451C0ED99F00EEFEE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC3C1C0ED99F00EEFEE1 /* AppDelegate.m */; };
-		DFACEC461C0ED99F00EEFEE1 /* GradientBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC3E1C0ED99F00EEFEE1 /* GradientBackground.m */; };
-		DFACEC471C0ED99F00EEFEE1 /* LapTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC401C0ED99F00EEFEE1 /* LapTimer.m */; };
-		DFACEC481C0ED99F00EEFEE1 /* LTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC421C0ED99F00EEFEE1 /* LTMainViewController.m */; };
-		DFACEC491C0ED99F00EEFEE1 /* LTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC441C0ED99F00EEFEE1 /* LTSettingsViewController.m */; };
-		DFACEC4E1C0ED9AA00EEFEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC4A1C0ED9AA00EEFEE1 /* LaunchScreen.storyboard */; };
-		DFACEC4F1C0ED9AA00EEFEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC4C1C0ED9AA00EEFEE1 /* Main.storyboard */; };
+		DFACEC5A1C0EDD1A00EEFEE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC511C0EDD1A00EEFEE1 /* AppDelegate.m */; };
+		DFACEC5B1C0EDD1A00EEFEE1 /* GradientBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC531C0EDD1A00EEFEE1 /* GradientBackground.m */; };
+		DFACEC5C1C0EDD1A00EEFEE1 /* LapTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC551C0EDD1A00EEFEE1 /* LapTimer.m */; };
+		DFACEC5D1C0EDD1A00EEFEE1 /* LTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC571C0EDD1A00EEFEE1 /* LTMainViewController.m */; };
+		DFACEC5E1C0EDD1A00EEFEE1 /* LTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC591C0EDD1A00EEFEE1 /* LTSettingsViewController.m */; };
+		DFACEC631C0EDD4B00EEFEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC5F1C0EDD4B00EEFEE1 /* LaunchScreen.storyboard */; };
+		DFACEC641C0EDD4B00EEFEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC611C0EDD4B00EEFEE1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,18 +29,18 @@
 		DFACEC341C0ED94B00EEFEE1 /* MisfitLinkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MisfitLinkSDK.framework; sourceTree = "<group>"; };
 		DFACEC361C0ED95200EEFEE1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		DFACEC381C0ED97600EEFEE1 /* helpIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = helpIcon.png; path = ../../../Downloads/helpIcon.png; sourceTree = "<group>"; };
-		DFACEC3B1C0ED99F00EEFEE1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../LapTimerExample/LapTimerExample/AppDelegate.h; sourceTree = "<group>"; };
-		DFACEC3C1C0ED99F00EEFEE1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../LapTimerExample/LapTimerExample/AppDelegate.m; sourceTree = "<group>"; };
-		DFACEC3D1C0ED99F00EEFEE1 /* GradientBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GradientBackground.h; path = ../../LapTimerExample/LapTimerExample/GradientBackground.h; sourceTree = "<group>"; };
-		DFACEC3E1C0ED99F00EEFEE1 /* GradientBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GradientBackground.m; path = ../../LapTimerExample/LapTimerExample/GradientBackground.m; sourceTree = "<group>"; };
-		DFACEC3F1C0ED99F00EEFEE1 /* LapTImer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LapTImer.h; path = ../../LapTimerExample/LapTimerExample/LapTImer.h; sourceTree = "<group>"; };
-		DFACEC401C0ED99F00EEFEE1 /* LapTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LapTimer.m; path = ../../LapTimerExample/LapTimerExample/LapTimer.m; sourceTree = "<group>"; };
-		DFACEC411C0ED99F00EEFEE1 /* LTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTMainViewController.h; path = ../../LapTimerExample/LapTimerExample/LTMainViewController.h; sourceTree = "<group>"; };
-		DFACEC421C0ED99F00EEFEE1 /* LTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTMainViewController.m; path = ../../LapTimerExample/LapTimerExample/LTMainViewController.m; sourceTree = "<group>"; };
-		DFACEC431C0ED99F00EEFEE1 /* LTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTSettingsViewController.h; path = ../../LapTimerExample/LapTimerExample/LTSettingsViewController.h; sourceTree = "<group>"; };
-		DFACEC441C0ED99F00EEFEE1 /* LTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTSettingsViewController.m; path = ../../LapTimerExample/LapTimerExample/LTSettingsViewController.m; sourceTree = "<group>"; };
-		DFACEC4B1C0ED9AA00EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../LapTimerExample/LapTimerExample/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DFACEC4D1C0ED9AA00EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../LapTimerExample/LapTimerExample/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFACEC501C0EDD1A00EEFEE1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFACEC511C0EDD1A00EEFEE1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFACEC521C0EDD1A00EEFEE1 /* GradientBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientBackground.h; sourceTree = "<group>"; };
+		DFACEC531C0EDD1A00EEFEE1 /* GradientBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientBackground.m; sourceTree = "<group>"; };
+		DFACEC541C0EDD1A00EEFEE1 /* LapTImer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapTImer.h; sourceTree = "<group>"; };
+		DFACEC551C0EDD1A00EEFEE1 /* LapTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LapTimer.m; sourceTree = "<group>"; };
+		DFACEC561C0EDD1A00EEFEE1 /* LTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMainViewController.h; sourceTree = "<group>"; };
+		DFACEC571C0EDD1A00EEFEE1 /* LTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMainViewController.m; sourceTree = "<group>"; };
+		DFACEC581C0EDD1A00EEFEE1 /* LTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSettingsViewController.h; sourceTree = "<group>"; };
+		DFACEC591C0EDD1A00EEFEE1 /* LTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSettingsViewController.m; sourceTree = "<group>"; };
+		DFACEC601C0EDD4B00EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFACEC621C0EDD4B00EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,18 +78,18 @@
 		DFACEC1E1C0ED81600EEFEE1 /* LapTimer */ = {
 			isa = PBXGroup;
 			children = (
-				DFACEC4A1C0ED9AA00EEFEE1 /* LaunchScreen.storyboard */,
-				DFACEC4C1C0ED9AA00EEFEE1 /* Main.storyboard */,
-				DFACEC3B1C0ED99F00EEFEE1 /* AppDelegate.h */,
-				DFACEC3C1C0ED99F00EEFEE1 /* AppDelegate.m */,
-				DFACEC3D1C0ED99F00EEFEE1 /* GradientBackground.h */,
-				DFACEC3E1C0ED99F00EEFEE1 /* GradientBackground.m */,
-				DFACEC3F1C0ED99F00EEFEE1 /* LapTImer.h */,
-				DFACEC401C0ED99F00EEFEE1 /* LapTimer.m */,
-				DFACEC411C0ED99F00EEFEE1 /* LTMainViewController.h */,
-				DFACEC421C0ED99F00EEFEE1 /* LTMainViewController.m */,
-				DFACEC431C0ED99F00EEFEE1 /* LTSettingsViewController.h */,
-				DFACEC441C0ED99F00EEFEE1 /* LTSettingsViewController.m */,
+				DFACEC5F1C0EDD4B00EEFEE1 /* LaunchScreen.storyboard */,
+				DFACEC611C0EDD4B00EEFEE1 /* Main.storyboard */,
+				DFACEC501C0EDD1A00EEFEE1 /* AppDelegate.h */,
+				DFACEC511C0EDD1A00EEFEE1 /* AppDelegate.m */,
+				DFACEC521C0EDD1A00EEFEE1 /* GradientBackground.h */,
+				DFACEC531C0EDD1A00EEFEE1 /* GradientBackground.m */,
+				DFACEC541C0EDD1A00EEFEE1 /* LapTImer.h */,
+				DFACEC551C0EDD1A00EEFEE1 /* LapTimer.m */,
+				DFACEC561C0EDD1A00EEFEE1 /* LTMainViewController.h */,
+				DFACEC571C0EDD1A00EEFEE1 /* LTMainViewController.m */,
+				DFACEC581C0EDD1A00EEFEE1 /* LTSettingsViewController.h */,
+				DFACEC591C0EDD1A00EEFEE1 /* LTSettingsViewController.m */,
 				DFACEC2B1C0ED81600EEFEE1 /* Assets.xcassets */,
 				DFACEC301C0ED81600EEFEE1 /* Info.plist */,
 				DFACEC1F1C0ED81600EEFEE1 /* Supporting Files */,
@@ -175,10 +175,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFACEC4E1C0ED9AA00EEFEE1 /* LaunchScreen.storyboard in Resources */,
+				DFACEC631C0EDD4B00EEFEE1 /* LaunchScreen.storyboard in Resources */,
 				DFACEC391C0ED97600EEFEE1 /* helpIcon.png in Resources */,
 				DFACEC2C1C0ED81600EEFEE1 /* Assets.xcassets in Resources */,
-				DFACEC4F1C0ED9AA00EEFEE1 /* Main.storyboard in Resources */,
+				DFACEC641C0EDD4B00EEFEE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,30 +189,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFACEC461C0ED99F00EEFEE1 /* GradientBackground.m in Sources */,
-				DFACEC451C0ED99F00EEFEE1 /* AppDelegate.m in Sources */,
-				DFACEC481C0ED99F00EEFEE1 /* LTMainViewController.m in Sources */,
-				DFACEC491C0ED99F00EEFEE1 /* LTSettingsViewController.m in Sources */,
+				DFACEC5B1C0EDD1A00EEFEE1 /* GradientBackground.m in Sources */,
+				DFACEC5A1C0EDD1A00EEFEE1 /* AppDelegate.m in Sources */,
+				DFACEC5D1C0EDD1A00EEFEE1 /* LTMainViewController.m in Sources */,
+				DFACEC5E1C0EDD1A00EEFEE1 /* LTSettingsViewController.m in Sources */,
 				DFACEC211C0ED81600EEFEE1 /* main.m in Sources */,
-				DFACEC471C0ED99F00EEFEE1 /* LapTimer.m in Sources */,
+				DFACEC5C1C0EDD1A00EEFEE1 /* LapTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DFACEC4A1C0ED9AA00EEFEE1 /* LaunchScreen.storyboard */ = {
+		DFACEC5F1C0EDD4B00EEFEE1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DFACEC4B1C0ED9AA00EEFEE1 /* Base */,
+				DFACEC601C0EDD4B00EEFEE1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		DFACEC4C1C0ED9AA00EEFEE1 /* Main.storyboard */ = {
+		DFACEC611C0EDD4B00EEFEE1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DFACEC4D1C0ED9AA00EEFEE1 /* Base */,
+				DFACEC621C0EDD4B00EEFEE1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
