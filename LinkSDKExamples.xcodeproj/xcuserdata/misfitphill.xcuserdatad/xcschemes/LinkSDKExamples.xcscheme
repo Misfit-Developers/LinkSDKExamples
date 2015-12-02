@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DFACEBFE1C0ED80300EEFEE1"
-            BuildableName = "LinkSDKExamples.app"
-            BlueprintName = "LinkSDKExamples"
+            BlueprintIdentifier = "DFACEC1C1C0ED81600EEFEE1"
+            BuildableName = "LapTimer.app"
+            BlueprintName = "LapTimer"
             ReferencedContainer = "container:LinkSDKExamples.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DFACEBFE1C0ED80300EEFEE1"
-            BuildableName = "LinkSDKExamples.app"
-            BlueprintName = "LinkSDKExamples"
+            BlueprintIdentifier = "DFACEC1C1C0ED81600EEFEE1"
+            BuildableName = "LapTimer.app"
+            BlueprintName = "LapTimer"
             ReferencedContainer = "container:LinkSDKExamples.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
