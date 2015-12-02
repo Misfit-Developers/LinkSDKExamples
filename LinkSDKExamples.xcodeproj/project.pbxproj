@@ -11,7 +11,6 @@
 		DFACEC2C1C0ED81600EEFEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC2B1C0ED81600EEFEE1 /* Assets.xcassets */; };
 		DFACEC351C0ED94B00EEFEE1 /* MisfitLinkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFACEC341C0ED94B00EEFEE1 /* MisfitLinkSDK.framework */; };
 		DFACEC371C0ED95200EEFEE1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFACEC361C0ED95200EEFEE1 /* CoreBluetooth.framework */; };
-		DFACEC391C0ED97600EEFEE1 /* helpIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC381C0ED97600EEFEE1 /* helpIcon.png */; };
 		DFACEC5A1C0EDD1A00EEFEE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC511C0EDD1A00EEFEE1 /* AppDelegate.m */; };
 		DFACEC5B1C0EDD1A00EEFEE1 /* GradientBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC531C0EDD1A00EEFEE1 /* GradientBackground.m */; };
 		DFACEC5C1C0EDD1A00EEFEE1 /* LapTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC551C0EDD1A00EEFEE1 /* LapTimer.m */; };
@@ -19,6 +18,7 @@
 		DFACEC5E1C0EDD1A00EEFEE1 /* LTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACEC591C0EDD1A00EEFEE1 /* LTSettingsViewController.m */; };
 		DFACEC631C0EDD4B00EEFEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC5F1C0EDD4B00EEFEE1 /* LaunchScreen.storyboard */; };
 		DFACEC641C0EDD4B00EEFEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC611C0EDD4B00EEFEE1 /* Main.storyboard */; };
+		DFACEC661C0EDF2900EEFEE1 /* helpIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC651C0EDF2900EEFEE1 /* helpIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,6 @@
 		DFACEC301C0ED81600EEFEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFACEC341C0ED94B00EEFEE1 /* MisfitLinkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MisfitLinkSDK.framework; sourceTree = "<group>"; };
 		DFACEC361C0ED95200EEFEE1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
-		DFACEC381C0ED97600EEFEE1 /* helpIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = helpIcon.png; path = ../../../Downloads/helpIcon.png; sourceTree = "<group>"; };
 		DFACEC501C0EDD1A00EEFEE1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFACEC511C0EDD1A00EEFEE1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DFACEC521C0EDD1A00EEFEE1 /* GradientBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientBackground.h; sourceTree = "<group>"; };
@@ -41,6 +40,7 @@
 		DFACEC591C0EDD1A00EEFEE1 /* LTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSettingsViewController.m; sourceTree = "<group>"; };
 		DFACEC601C0EDD4B00EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFACEC621C0EDD4B00EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFACEC651C0EDF2900EEFEE1 /* helpIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 		DFACEC1F1C0ED81600EEFEE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DFACEC381C0ED97600EEFEE1 /* helpIcon.png */,
+				DFACEC651C0EDF2900EEFEE1 /* helpIcon.png */,
 				DFACEC201C0ED81600EEFEE1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -176,7 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFACEC631C0EDD4B00EEFEE1 /* LaunchScreen.storyboard in Resources */,
-				DFACEC391C0ED97600EEFEE1 /* helpIcon.png in Resources */,
+				DFACEC661C0EDF2900EEFEE1 /* helpIcon.png in Resources */,
 				DFACEC2C1C0ED81600EEFEE1 /* Assets.xcassets in Resources */,
 				DFACEC641C0EDD4B00EEFEE1 /* Main.storyboard in Resources */,
 			);
