@@ -38,6 +38,8 @@
     
     [[LapTimer sharedInstance] addObserver:self forKeyPath:@"elapsedTime" options:NSKeyValueObservingOptionNew context:nil];
     
+    [[LapTimer sharedInstance] addObserver:self forKeyPath:@"numLaps" options:NSKeyValueObservingOptionNew context:nil];
+    
 
 }
 
@@ -55,7 +57,11 @@
         NSString *strVal = @"";
         if (newVal < 10)
             strVal = @"0";
-        [_timerLabel setText:[NSString stringWithFormat:@"%@%0.02f",strVal,newVal]];
+        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+            [_timerLabel setText:[NSString stringWithFormat:@"%@%0.02f",strVal,newVal]];
+        }];
+    }else if ([keyPath isEqualToString:@"numLaps"]){
+        [self updateLapTimes];
     }
 }
 
@@ -66,7 +72,7 @@
     NSNumber *lastLapTime = [laps lastObject];
     NSString *timeString = [NSString stringWithFormat:@"%.02f", [lastLapTime floatValue]];
     if (numLaps > 0) {
-        NSString *newLine = [NSString stringWithFormat:@"%d |  %@\n",numLaps,timeString];
+        NSString *newLine = [NSString stringWithFormat:@"%d | %@\n",numLaps,timeString];
         [[NSOperationQueue mainQueue] addOperationWithBlock:^{
             _lapTimesTextView.text = [_lapTimesTextView.text stringByAppendingString:newLine];
         }];
@@ -129,20 +135,20 @@
     {
         NSLog(@"new lap");
         [[LapTimer sharedInstance] newLap];
-        [self updateLapTimes];
-        completion(MFLActionResultTypeSuccess);
-    }
-    else if ([command.name isEqualToString:@"resetTimer"])
-    {
-        NSLog(@"reset");
-        [[LapTimer sharedInstance] reset];
-        [self updateLapTimes];
+        //[self updateLapTimes];
         completion(MFLActionResultTypeSuccess);
     }
     else if ([command.name isEqualToString:@"stopTimer"])
     {
         NSLog(@"stop");
         [[LapTimer sharedInstance] stop];
+        completion(MFLActionResultTypeSuccess);
+    }
+    else if ([command.name isEqualToString:@"resetTimer"])
+    {
+        NSLog(@"reset");
+        [[LapTimer sharedInstance] reset];
+        //[self updateLapTimes];
         completion(MFLActionResultTypeSuccess);
     }
     else

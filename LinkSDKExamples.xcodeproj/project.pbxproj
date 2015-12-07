@@ -18,6 +18,7 @@
 		DFACEC631C0EDD4B00EEFEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC5F1C0EDD4B00EEFEE1 /* LaunchScreen.storyboard */; };
 		DFACEC641C0EDD4B00EEFEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC611C0EDD4B00EEFEE1 /* Main.storyboard */; };
 		DFACEC661C0EDF2900EEFEE1 /* helpIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACEC651C0EDF2900EEFEE1 /* helpIcon.png */; };
+		DFACECEC1C0EF90100EEFEE1 /* MisfitLinkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFACECEB1C0EF90100EEFEE1 /* MisfitLinkSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		DFACEC601C0EDD4B00EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFACEC621C0EDD4B00EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFACEC651C0EDF2900EEFEE1 /* helpIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpIcon.png; sourceTree = "<group>"; };
+		DFACECEB1C0EF90100EEFEE1 /* MisfitLinkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MisfitLinkSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFACECEC1C0EF90100EEFEE1 /* MisfitLinkSDK.framework in Frameworks */,
 				DFACEC371C0ED95200EEFEE1 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +59,7 @@
 		DFACEBF61C0ED80300EEFEE1 = {
 			isa = PBXGroup;
 			children = (
+				DFACECEB1C0EF90100EEFEE1 /* MisfitLinkSDK.framework */,
 				DFACEC361C0ED95200EEFEE1 /* CoreBluetooth.framework */,
 				DFACEC1E1C0ED81600EEFEE1 /* LapTimer */,
 				DFACEC001C0ED80300EEFEE1 /* Products */,

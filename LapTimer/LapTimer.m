@@ -14,8 +14,8 @@
 
 @implementation LapTimer
 {
-    BOOL isTimerOn;
     NSTimeInterval lastRecordedTimeInterval;
+    BOOL isTimerOn;
 }
 
 
@@ -36,6 +36,7 @@ static LapTimer *_sharedInstance = nil;
     {
         isTimerOn = NO;
         self.lapTimes = [[NSMutableArray alloc] init];
+        self.numLaps = 0;
     }
     return self;
 }
@@ -44,7 +45,6 @@ static LapTimer *_sharedInstance = nil;
 {
     isTimerOn = YES;
     lastRecordedTimeInterval = [NSDate timeIntervalSinceReferenceDate];
-    //[NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(update) userInfo:nil repeats:YES];
     [self update];
 }
 
@@ -54,6 +54,7 @@ static LapTimer *_sharedInstance = nil;
         [self start];
     }else{
         [self.lapTimes addObject:[NSNumber numberWithDouble:_elapsedTime]];
+        self.numLaps++;
         self.elapsedTime = 0.0;
     }
 }
@@ -81,9 +82,9 @@ static LapTimer *_sharedInstance = nil;
 - (void)reset
 {
     [self stop];
-    lastRecordedTimeInterval = 0.0;
-    self.elapsedTime = 0.0;
     [self.lapTimes removeAllObjects];
+    self.numLaps = 0;
+    self.elapsedTime = 0.0;
 }
 
 

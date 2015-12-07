@@ -25,7 +25,7 @@
 - (IBAction)onChangeButtonPressed:(UIButton *)sender
 {
     [[MFLSession sharedInstance] showGestureMappingSettingDialogWithNavigationController:self.navigationController
-                                                                              completion:^(NSDictionary * commandMappingDict,NSArray * supportedCommands, MFLError* error)
+                                                                              completion:^(NSDictionary * commandMappingDict, NSArray * supportedCommands, MFLError* error)
      {
          if (error)
          {
@@ -40,9 +40,9 @@
              NSLog(@"command desc:%@, name:%@", command.desc, command.name);
              //output: command desc:add to favorites, name:add_to_favorites
          }
-         for (MFLCommand * command in supportedCommands)
+         for (NSDictionary *command in supportedCommands)
          {
-             NSLog(@"supported command name:%@, desc: %@",command.name,command.desc);
+             NSLog(@"supported command name:%@, desc: %@",command[@"name"],command[@"desc"]);
              
          }
      }];

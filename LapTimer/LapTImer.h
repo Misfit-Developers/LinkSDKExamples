@@ -12,6 +12,7 @@
 
 @property (nonatomic, assign) NSTimeInterval elapsedTime;
 @property (nonatomic, strong) NSMutableArray *lapTimes;
+@property (nonatomic, assign) NSInteger numLaps;
 
 + (LapTimer *) sharedInstance;
 
