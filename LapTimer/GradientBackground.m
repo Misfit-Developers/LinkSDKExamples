@@ -11,7 +11,7 @@
 
 @implementation GradientBackground
 
-//Blue gradient background
+//Orange gradient background
 + (CAGradientLayer*) orangeGradient {
     
     UIColor *colorOne = [UIColor colorWithRed:(238/255.0)  green:(96/255.0)  blue:(42/255.0)  alpha:1.0];

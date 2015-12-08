@@ -37,10 +37,7 @@
     [MFLSession sharedInstance].gestureCommandDelegate = self;
     
     [[LapTimer sharedInstance] addObserver:self forKeyPath:@"elapsedTime" options:NSKeyValueObservingOptionNew context:nil];
-    
     [[LapTimer sharedInstance] addObserver:self forKeyPath:@"numLaps" options:NSKeyValueObservingOptionNew context:nil];
-    
-
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -124,18 +121,11 @@
 #pragma mark - Button Commands
 - (void) performActionByCommand:(MFLCommand *)command
                      completion:(void (^)(MFLActionResultType result))completion{
-    /*if (there_is_an_error)
-     {
-     //handle error.
-     completion(MFLActionResultTypeFail);
-     return;
-     }*/
     
     if ([command.name isEqualToString:@"newLap"])
     {
         NSLog(@"new lap");
         [[LapTimer sharedInstance] newLap];
-        //[self updateLapTimes];
         completion(MFLActionResultTypeSuccess);
     }
     else if ([command.name isEqualToString:@"stopTimer"])
@@ -148,7 +138,6 @@
     {
         NSLog(@"reset");
         [[LapTimer sharedInstance] reset];
-        //[self updateLapTimes];
         completion(MFLActionResultTypeSuccess);
     }
     else

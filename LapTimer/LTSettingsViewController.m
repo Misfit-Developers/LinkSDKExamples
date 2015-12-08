@@ -29,8 +29,6 @@
      {
          if (error)
          {
-             //reset the status
-             //handle error.
              return;
          }
          //Button Command Settings for the user.
@@ -38,7 +36,6 @@
          {
              MFLCommand *command = [commandMappingDict objectForKey:@(MFLGestureTypeTriplePress)];
              NSLog(@"command desc:%@, name:%@", command.desc, command.name);
-             //output: command desc:add to favorites, name:add_to_favorites
          }
          for (NSDictionary *command in supportedCommands)
          {
