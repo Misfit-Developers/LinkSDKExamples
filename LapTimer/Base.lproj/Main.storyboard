@@ -39,9 +39,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sr2-Wr-o9D">
-                                <rect key="frame" x="268" y="464" width="32" height="31"/>
+                                <rect key="frame" x="268" y="517" width="32" height="31"/>
                                 <animations/>
-                                <state key="normal" title="Button" image="helpIcon.png"/>
+                                <state key="normal" title="Button" image="helpicon.png"/>
                                 <connections>
                                     <segue destination="R3U-ll-d14" kind="push" id="UZj-p1-zs1"/>
                                 </connections>
@@ -120,6 +120,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="helpIcon.png" width="1200" height="1200"/>
+        <image name="helpicon.png" width="650" height="650"/>
     </resources>
 </document>
