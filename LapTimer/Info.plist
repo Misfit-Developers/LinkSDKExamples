@@ -54,7 +54,6 @@
     <key>LSApplicationQueriesSchemes</key>
     <array>
         <string>misfitlink</string>
-        <string>misfitlink-internal</string>
     </array>
 </dict>
 </plist>

@@ -101,7 +101,7 @@
 
 -(void)connectToMisfit
 {
-    [[MFLSession sharedInstance] enableWithAppId:@"43880" appSecret:@"jPgG8EsuwVKPsvAi5NLD9ZOQa3EaEJW7"
+    [[MFLSession sharedInstance] enableWithAppId:@"43880" appSecret:@"PKbRDAg4yptCySRqptaCunOEpYHjI26V"
                                       completion:^(NSDictionary * commandMappingDict,NSArray * supportedCommands, MFLError* error)
      {
          if (error)
